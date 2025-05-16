@@ -1,12 +1,71 @@
-# React + Vite
+# 💬 AI Chatbot UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and minimal AI chatbot interface built with **React**, **Tailwind CSS**, and **React Router** — featuring a beautiful sidebar, dynamic routing, and smart layout.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✅ Clean and responsive UI
+- ✅ Sidebar with active section navigation
+- ✅ Route-based page switching using React Router
+- ✅ Heroicons for search and send icons
+- ✅ FontAwesome pen icon for "Help me write"
+- ✅ Tailwind CSS styling
+- ✅ No default view — main section shows content only when clicked
 
-## Expanding the ESLint configuration
+## 🖼️ Preview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![Screenshot](./preview.png)
+
+---
+
+## 🧱 Technologies Used
+
+- React
+- Tailwind CSS
+- React Router v6
+- Heroicons
+- FontAwesome
+
+---
+
+## 🛠️ Setup Instructions
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/yourusername/ai-chatbot-ui.git
+cd ai-chatbot-ui
+
+2. Install dependencies
+bash
+npm install
+3. Start the development server
+bash
+npm run dev
+Open in your browser: http://localhost:5173
+
+🗂️ Folder Structure
+
+src/
+├── Components/
+│   ├── ChatbotUI.jsx
+│   ├── ChatPage.jsx
+│   ├── SearchPage.jsx
+│   ├── SupportPage.jsx
+│   └── EmptyPage.jsx
+├── App.jsx
+└── main.jsx
+
+✨ Customization Ideas
+Add dark mode
+
+Add typing animation
+
+Connect to backend chatbot API
+
+Mobile responsive enhancements
+
+
+🙋‍♂️ Author
+Built with 💚 by [Maryama Ahmed Mohamoud(Quen Reza)]
+Follow me on LinkedIn: https://www.linkedin.com/in/maryamo-ahmed-mohamoud | Facebook: https://www.facebook.com/maryamiina.ruunahmed
+
