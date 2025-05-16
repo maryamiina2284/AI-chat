@@ -14,7 +14,8 @@ A modern and minimal AI chatbot interface built with **React**, **Tailwind CSS**
 
 ## 🖼️ Preview
 
-![Screenshot](./preview.png)
+![Preview of the AI Chatbot UI](./preview.png)
+![Preview of the AI Chatbot UI](./preview.png)
 
 ---
 
